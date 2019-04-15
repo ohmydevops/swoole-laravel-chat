@@ -64,6 +64,25 @@ form button:hover {
     background: #ecf0f1;
 }
 
+.time {
+    font-size: 9px;
+    text-align: center;
+}
+
+.line {
+    height: 1px;
+    color: #b1becc;
+    background-color: #b1becc;
+    border: none;
+}
+
+.line-other {
+    height: 1px;
+    color: #d9dbdc;
+    background-color: #d9dbdc;
+    border: none;
+}
+
 #messages li {
     padding: 5px 10px;
     margin: 10px;
