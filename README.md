@@ -1,2 +1,2 @@
 # Real Time Messaging Board
-![](video.gif)
+![](video-screen.gif)
