@@ -20,3 +20,8 @@ Websocket::on('connect', function () {
 Websocket::on('disconnect', function ($websocket) {
     echo "a client disconnected.\n";    
 });
+
+Websocket::on('message', function ($websocket, $data) {
+    echo $data."\n";
+    $websocket->broadcast()->emit('send', $data);
+});

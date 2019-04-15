@@ -9,7 +9,7 @@
 
 <body>
     <ul id="messages" dir="rtl">
-        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
+        {{-- <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
         <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ سا     عت 13</span></li>
         <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
         <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
@@ -26,7 +26,7 @@
         <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
         <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
         <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
+        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li> --}}
         <br>
     </ul>
     <form action="">
