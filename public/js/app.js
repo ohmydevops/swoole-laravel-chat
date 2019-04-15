@@ -3,12 +3,12 @@ $(document).ready(function(){
     var socket_ip = "http://127.0.0.1";
     var socket_port = "1215";
     var socket = io(socket_ip+':'+socket_port, {transports: ['websocket']});
-    function appendToScreen(text,sender) {
+    function appendToScreen(data,sender) {
         if(sender == "me"){
-            $("#messages").append('<li class="me">'+text+'<br><br><hr class=\"line\"><span class=\"time\">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>');
+            $("#messages").append('<li class="me">'+data+'<br><br><hr class=\"line\"><span class=\"time\">'+moment().locale('fa').format('ارسال شده در تاریخ ddd DD MMMM YYYY, ساعت HH:mm:ss')+'</span></li>');
         } 
         else {
-            $("#messages").append('<li class="other">'+text+'<br><br><hr class=\"line-other\"><span class=\"time\">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>');
+            $("#messages").append('<li class="other">'+data+'<br><br><hr class=\"line-other\"><span class=\"time\">'+moment().locale('fa').format('ارسال شده در تاریخ ddd DD MMMM YYYY, ساعت HH:mm:ss')+'</span></li>');
         }
     }
 

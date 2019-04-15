@@ -52,6 +52,7 @@ form button:hover {
 #messages {
     list-style-type: none;
     margin: 0;
+    margin-bottom: 65px !important;
     padding: 0;
 }
 

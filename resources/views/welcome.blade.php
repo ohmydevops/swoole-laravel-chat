@@ -8,32 +8,13 @@
 </head>
 
 <body>
-    <ul id="messages" dir="rtl">
-        {{-- <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ سا     عت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr  class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="other">سلام!<br><br><hr class="line-other"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li>
-        <li class="me">سلام این پیام از طرف من است!<br><br><hr class="line"><span class="time">ارسال شده در تاریخ ۵ فروردین ۹۸ ساعت 13</span></li> --}}
-        <br>
-    </ul>
+    <ul id="messages" dir="rtl"></ul>
     <form action="">
         <input id="m" autocomplete="off" /><button>ارسال</button>
     </form>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
     <script src="js/app.js"></script>
 </body>
 

@@ -3,6 +3,7 @@
 
 use Illuminate\Http\Request;
 use SwooleTW\Http\Websocket\Facades\Websocket;
+use Morilog\Jalali\Jalalian;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,6 @@ Websocket::on('disconnect', function ($websocket) {
 });
 
 Websocket::on('message', function ($websocket, $data) {
-    echo $data."\n";
+    print_r($data)."\n";
     $websocket->broadcast()->emit('send', $data);
 });
