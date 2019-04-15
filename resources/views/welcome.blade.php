@@ -32,8 +32,8 @@
     <form action="">
         <input id="m" autocomplete="off" /><button>ارسال</button>
     </form>
-    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <script src="js/app.js"></script>
 </body>
 
