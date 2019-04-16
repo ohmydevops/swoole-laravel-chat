@@ -28,6 +28,7 @@
 - [ ] prevent empty string in messages
 - [ ] prevent send many messages in very short time !
 - [ ] Scalability for 1 milion user !
+- [ ] notifications for new messages.
 
 # Any problem?
 
