@@ -21,6 +21,10 @@ $(document).ready(function(){
     $('form').submit(function(e){
         e.preventDefault();
         var data = $('#m').val();
+        if(data.trim() == ""){
+            alert("پیام خالی چه فایده ای داره که میخوای ارسال کنی؟!")
+            return false;
+        }
         appendToScreen(data,"me");
         socket.emit('message', data);
         $('#m').val('');
