@@ -6,7 +6,7 @@
 
 2. install swoole extension ([reference](https://www.swoole.co.uk/docs/get-started/installation))
 
-3. clone this repository
+3. run `git clone https://github.com/amirbagh75/real-time-messaging.git` to clone this repository 
 
 4. run `composer install` in the root directory of application
 
@@ -25,6 +25,7 @@
 - [ ] add is typing !
 - [ ] add join/left message.
 - [ ] mobile application
+- [ ] Scalability for 1 milion user !
 
 # Any problem?
 
