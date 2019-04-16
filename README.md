@@ -25,7 +25,7 @@
 - [ ] add is typing !
 - [ ] add join/left message.
 - [ ] mobile application
-- [ ] prevent empty string in messages
+- [x] prevent empty string in messages
 - [ ] prevent send many messages in very short time !
 - [ ] Scalability for 1 milion user !
 - [ ] notifications for new messages.
