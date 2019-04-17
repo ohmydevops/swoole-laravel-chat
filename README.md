@@ -23,7 +23,6 @@
 - [ ] Add support for nicknames.
 - [ ] save messages in database.
 - [ ] add is typing !
-- [ ] add join/left message.
 - [ ] mobile application
 - [ ] desktop application
 - [ ] cli application
@@ -35,6 +34,9 @@
 - [ ] unit tests
 - [ ] rewrite client with Vue.js
 - [ ] write architecture document
+- [ ] add user to user chat
+- [ ] add chat rooms
+- [ ] add join/left message for rooms
 
 # Any problem?
 
