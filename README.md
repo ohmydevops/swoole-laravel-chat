@@ -34,6 +34,7 @@
 - [ ] dockerize
 - [ ] unit tests
 - [ ] rewrite client with Vue.js
+- [ ] write architecture document
 
 # Any problem?
 
