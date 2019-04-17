@@ -28,7 +28,7 @@
 - [ ] cli application
 - [x] prevent empty string in messages
 - [ ] prevent send many messages in very short time !
-- [ ] Scalability for 1 milion user !
+- [ ] Scalability for 1 milion concurrency user !
 - [ ] notifications for new messages.
 - [ ] dockerize
 - [ ] unit tests
