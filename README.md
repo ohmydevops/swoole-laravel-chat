@@ -39,6 +39,7 @@
 - [ ] add join/left message for rooms
 - [ ] send image/video/document/voice
 - [ ] add voicecall/videocall support
+- [ ] add day/night theme
 
 # Any problem?
 
