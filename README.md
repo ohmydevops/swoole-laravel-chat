@@ -32,6 +32,7 @@
 - [ ] Scalability for 1 milion user !
 - [ ] notifications for new messages.
 - [ ] dockerize
+- [ ] unit tests
 
 # Any problem?
 
