@@ -37,6 +37,8 @@
 - [ ] add user to user chat
 - [ ] add chat rooms
 - [ ] add join/left message for rooms
+- [ ] send image/video/document/voice
+- [ ] add voicecall/videocall support
 
 # Any problem?
 
