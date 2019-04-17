@@ -33,6 +33,7 @@
 - [ ] notifications for new messages.
 - [ ] dockerize
 - [ ] unit tests
+- [ ] rewrite client with Vue.js
 
 # Any problem?
 
