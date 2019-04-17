@@ -40,7 +40,7 @@
 - [ ] send image/video/document/voice
 - [ ] add voicecall/videocall support
 - [ ] add day/night theme
-- [ ] add CI/CD for development and deplyment
+- [ ] add CI/CD for development and deployment
 
 # Any problem?
 
