@@ -21,7 +21,7 @@
 # Future plans?
 
 - [ ] Add support for nicknames.
-- [ ] save messages in database.
+- [ ] add database.
 - [ ] add is typing !
 - [ ] mobile application
 - [ ] desktop application
