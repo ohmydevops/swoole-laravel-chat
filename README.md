@@ -41,6 +41,7 @@
 - [ ] add voicecall/videocall support
 - [ ] add day/night theme
 - [ ] add CI/CD for development and deployment
+- [ ] buy a VPS (Ubuntu Server) and launch the Project on it
 
 # Any problem?
 
