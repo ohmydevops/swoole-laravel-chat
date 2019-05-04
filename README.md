@@ -10,6 +10,9 @@ I like to learn software engineering. One of the best ways is to develop open so
 
 # Roadmap
 
+- ### phase 0: Holy knowledge
+    i research about messenger main topics, challenges and technologies and write about it in my blog. [link](http://amirbagh75.ir/)
+
 - ### phase 1: The birth of a messenger
 
     - User2User chat
