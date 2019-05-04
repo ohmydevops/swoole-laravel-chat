@@ -1,6 +1,44 @@
 # Real Time Messaging Board
 ![](video-screen.gif)
 
+
+# Why ?
+
+I like to learn software engineering. One of the best ways is to develop open source and public projects. If there is a wrong architecture or there are some better ways to do something, the software community will teach it to me. And finally I would like to share my knowledge with others.
+
+   
+
+# Roadmap
+
+- ### phase 1: The birth of a messenger
+
+    - User2User chat
+    - Video Call
+    - Voice Call
+    - Signup with username + name + lastname + bio
+    - send text messages
+    - send file messages
+    - notification for new messages
+    - web client
+    - chat history
+    - users chat list history (main page of app)
+    - architecture document (in the end)
+    - unit tests
+    - deploy on server
+
+- ### phase 2: Scalability for 100k concurrent user
+    - comming soon
+- ### phase 3: Speed,Speed,Speed
+    - comming soon
+- ### phase 4: Develop clients
+    - Mobile Client (Android + IOS)
+    - Desktop Client (Windows + Linux + Mac OS)
+    - CLI (Linux)
+- ### phase 5: Security,Security,Security
+    - comming soon
+
+
+
 # How to install?
 1. install composer ([reference](https://getcomposer.org/download/))
 
@@ -16,32 +54,6 @@
 
 7. run `php artisan swoole:http start` and everything should be ok now 😬
 
-   
-
-# Future plans?
-
-- [ ] Add support for nicknames.
-- [ ] add database.
-- [ ] add is typing !
-- [ ] mobile application
-- [ ] desktop application
-- [ ] cli application
-- [x] prevent empty string in messages
-- [ ] prevent send many messages in very short time !
-- [ ] Scalability for 1 milion concurrency user !
-- [ ] notifications for new messages.
-- [ ] dockerize
-- [ ] unit tests
-- [ ] rewrite client with Vue.js
-- [ ] write architecture document
-- [ ] add user to user chat
-- [ ] add chat rooms
-- [ ] add join/left message for rooms
-- [ ] send image/video/document/voice
-- [ ] add voicecall/videocall support
-- [ ] add day/night theme
-- [ ] add CI/CD for development and deployment
-- [ ] buy a VPS (Ubuntu Server) and launch the Project on it
 
 # Any problem?
 
