@@ -8,26 +8,38 @@ I like to learn software engineering. One of the best ways is to develop open so
 
    
 
-# Roadmap
+# Roadmap (From the user's perspective)
 
+- ### user view
+    
 - ### phase 0: Holy knowledge
-    i research about messengers main topics, challenges and technologies and write about it in my blog. [link](http://amirbagh75.ir/)
+    i research about messengers main topics, challenges and technologies and write about it in my blog. [link](http://amirbagh75.ir/)     
+    And I put all the good links to study in issues too.
 
 - ### phase 1: The birth of a messenger
-
-    - User2User chat
-    - Video Call
-    - Voice Call
-    - Signup with username + name + lastname + bio
-    - send text messages
-    - send file messages
-    - notification for new messages
-    - web client
-    - chat history
-    - users chat list history (main page of app)
-    - architecture document (in the end)
-    - unit tests
-    - deploy on server
+    - #### part 1: 
+        - [ ] Simple architectural analysis to get started (make code base 😎)
+        - [ ] User2User chat
+        - [ ] Signup with username + name + lastname + bio
+        - [ ] send text messages
+        - [ ] send file messages
+        - [ ] notification for new messages (browsers)
+        - [ ] web client (SPA)
+        - [ ] chat history
+        - [ ] users chat list history (main page of app)
+        - [ ] search users by username and start chat!
+        - [ ] unit tests
+        - [ ] CI/CD
+        - [ ] deploy on server
+        
+    - #### part 2: 
+        - [ ] Voice Call (User2User)
+        - [ ] deploy on server
+    - #### part 3: 
+        - [ ] Video Call (User2User)
+        - [ ] deploy on server
+    - #### part 4:
+        - [ ] deploy on server
 
 - ### phase 2: Scalability for 100k concurrent user
     - comming soon
