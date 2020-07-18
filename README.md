@@ -1,12 +1,7 @@
 # Real Time Messaging Board
 ![](video-screen.gif)
 
-
-# Why ?
-
-I like to learn software engineering. One of the best ways is to develop open source and public projects. If there is a wrong architecture or there are some better ways to do something, the software community will teach it to me. And finally I would like to share my knowledge with others.
-
-# How to install?
+# Installing and Running 
 1. install composer ([reference](https://getcomposer.org/download/))
 
 2. install swoole extension ([reference](https://www.swoole.co.uk/docs/get-started/installation))
@@ -20,14 +15,3 @@ I like to learn software engineering. One of the best ways is to develop open so
 6. run `php artisan key:generate`
 
 7. run `php artisan swoole:http start` and everything should be ok now 😬
-
-
-# Any problem?
-
-please open a issue !
-
-# Any idea?
-
-please open a issue !
-
-
