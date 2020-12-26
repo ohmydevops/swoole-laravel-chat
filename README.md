@@ -1,4 +1,4 @@
-# Real Time Messaging Board
+# Real Time Chat Board
 ![](video-screen.gif)
 
 # Installing and Running 
